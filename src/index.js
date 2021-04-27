@@ -1,9 +1,6 @@
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import ReactDOM from 'react-dom';
+import AppRouter from "./AppRouter";
 
-import App from './App';
-
-
-ReactDOM.render(<App />,document.getElementById('root')
-);
-
+ReactDOM.render(<AppRouter />, document.getElementById("root"));
